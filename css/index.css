@@ -1,4 +1,139 @@
-footer {
-  background-color: aqua;
-  padding: 15px;
-} 
+:root {
+  --bg-color-dark: #1d1160;
+  --bg-color-light:  #08ead0;
+
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/abstract-gradient-neon-lights.jpg");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+
+
+/* 
+.splash {
+  padding: 0;
+  background-color: #08ead0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  height: calc(100vh - 15px);
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+  color: white;
+} */
+
+
+/* .jumbo h1 {
+  background-color: black;
+  text-align: right;
+} */
+
+
+/* Jumbotron  */
+.jumbotron {
+  /* background-image: url("./images/maze.jpg"); */
+  background-image: url(../images/abstract-gradient-neon-lights.jpg);
+  min-height: 400px;
+  background-size: cover;
+  height: calc(100vh - 35px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+/* All hyperlinks should have a hover effect. */
+
+
+
+
+
+footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* Credit to https://epicbootstrap.com/snippets/footer-basic */

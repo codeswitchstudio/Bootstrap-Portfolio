@@ -8,6 +8,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+<!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
     <!-- Add Bootstrap CSS Here on line 10-->
     <!-- This is REQUIRED for bootstrap to work correctly -->
     <link
@@ -17,83 +23,114 @@
       crossorigin="anonymous"
     />
     <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
 
     <title>Indira Endaya, Digital Creative</title>
   </head>
+
+
   <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Indira Endaya</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About Me</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                My Work
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Websites</a></li>
-                <li><a class="dropdown-item" href="#">Branding</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Creative Lab</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
-            </li>
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Indira Endaya</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#work">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#skills">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact Me</a>
+              </li>
             
-          </ul>
+              
+            </ul>
 
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav> -->
 
-    <!-- Paste Jumbotron Code Below-->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Let's build something extraordinary!</h1>
-        <p class="col-md-8 fs-4">
-          Your brand deserves to shine, and I'm here to make it happen. Whether you need a stunning website, eye-catching brochures, or engaging digital assets for your social media, I'm here to turn your vision into reality!
-        </p>
-        <button class="btn btn-primary btn-lg" type="button">
-          Let's go!
-        </button>
+
+      <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Codeswitch Studio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+
+        </ul>
       </div>
     </div>
+  </nav>
+  <!-- End navigation bar -->
+    
+    <!-- Paste Jumbotron Code Below-->
+    <!-- <div class="p-5 mb-4 bg-body-tertiary splash" >
+
+      <div class="container-fluid py-5">
+
+        <h1 class="display-5 fw-bold splash">Indira Endaya</h1>
+        <p>
+        Whether you need a stunning website, eye-catching digital brochures, or engaging  assets for your social media, I'm here to turn your vision into reality!    
+        </p> -->
+        <!-- <button class="btn btn-primary btn-lg" type="button">
+          Let's go!
+        </button> -->
+      <!-- </div>
+    </div> -->
+
+    <!-- Jumbotron Code -->
+    
+    <!-- <div class="p-5 text-left bg-image rounded-3 jumbotron>
+      <div class="container-fluid py-5 ">
+        <h1 class="display-5 fw-bold">Indira Endaya</h1>
+        <p class="col-md-8 fs-4">Whether you need a stunning website, eye-catching digital brochures, or engaging  assets for your social media, I'm here to turn your vision into reality!  </p>
+        <button class="btn btn-primary btn-lg" type="button">Example button</button>
+      </div>
+    </div> -->
+
+
+ <!-- Jumbotron -->
+ <div class="p-5 mb-4 bg-body-tertiary rounded-3 jumbotron">
+  <div class="container-fluid py-5 jumboCopy">
+    <h1 class="display-5 fw-bold">It's Time to Rock</h1>
+    <p class="col-md-12 fs-4">Rock Nation brings you the most headbanging shows on the planet. Click below to find tickets for
+      your favorite bands</p>
+    <button class="btn btn-primary btn-lg" type="button">Buy Tickets</button>
+  </div>
+</div>
+<!-- End jumbotron -->
 
     <!-- End jumbotron -->
     <!-- Cards -->
     <div class="container-fluid content">
       <h2 class="sectionHeading">Here's my work</h2>
-      <div class="row showsNear">
+      <p>Your brand deserves to shine, and I'm here to make it happen. Let's build something extraordinary. </p>
+      <div class="row showsNear" id="work">
         <!-- Card 1 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <a href="https://codeswitchstudio.github.io/horiseon-code-refactor/" >
-            <img src="./images/maze.jpg" class="card-img-top" alt="..." /></a>
+            <a href="https://codeswitchstudio.github.io/digital-folio-01/" >
+            <img src="./images/rishabh-dharmani-IvfAs3Qk64M-unsplash.jpg" class="card-img-top" alt="..." /></a>
             <div class="card-body">
               <h5 class="card-title">Initial Portfolio</h5>
               <p class="card-text">
@@ -162,7 +199,7 @@
               Development Praxis consultants were delighted with this 
               visual identity and assets I created featuring a vivid and clean logo to stand out in a sea of of social media posts and printed collateral.
               </p>
-               
+
             </div>
           </div>
         </div>
@@ -178,16 +215,10 @@
             <p class="card-text">
             Creative coding projects I learned how to make from watching the most fun educational code along videos by Dan Schiffman on his channel, The Coding Train.
             </p>
-            <a href="#" class="btn btn-primary">Important Info</a>
           </div>
         </div>
       </div>
       <!-- End card 6 --> 
-
-
-
-
-
 
 
     <!-- End cards -->
@@ -195,30 +226,25 @@
     </div>
 
 
-
-
-
-
-
-
-
     <!-- Content -->
     <div class="container-fluid content">
       <!-- Row 1 -->
       <div class="row valueProp">
-        <div class="col-6">
-          <h3>Skills</h3>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3 id="skills">Skills</h3>
           <p>
-            I am adept at all the core Adobe CC programmes: Illustrator, InDesign and Photoshop, specifically. I also like using Figma and Visual Studio Code for my online courses on UX/UI Design and Interactive Data Visualisation using HTML, CSS, SVG, and D3.js. For fun, I am also tinkering with the p5js libraries, Touch Designer,Spark AR and various generative AI tools online. 
+            Core Adobe CC programmes, Figma and Visual Studio Code. p5js libraries, Touch Designer,Spark AR, Open AI apps. Current bootcamp skills list: HTML/CSS/Git, GitHub, User experience design, JavaScript, Bootstrap, The DOM, APIs, JQuery, JSON, AJAX, Agile development, Node.js, ES6, Object-oriented programming, Test-driven development, React, Behavior-driven development, Agile development, Project demonstration and storytelling.
+            <!--Dreaming up something fantastic, Understanding the bounds of reasonable and achievable.-->
           </p>
   
         </div>
 
-        <div class="col-6">
-          <h3>About Me</h3>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3 id="about">About Me</h3>
           <p>
-            I am a multi-disciplinary designer with a background in media, communication, and cultural studies. I enjoy bringing research to life visually and find genuine satisfaction when my clients happily get their message across. 
-            With a passion for design and a commitment to understanding and implementing your vision, I bring creativity and expertise to every project. I am super keen to work on impactful, inclusive and sustainable projects. 
+            I am a multi-disciplinary designer with a background in media, communication, and cultural studies. I enjoy bringing research to life visually and find genuine satisfaction when my clients get their message across. 
+
+            
           </p>
         </div>
         <!-- End row 1 -->
@@ -231,32 +257,44 @@
     <!-- End content -->
 
     <!-- Footer -->
-    <footer class="col-sm-12">  
-  <!-- Contact -->
-  <div class="grid-item" id="contact"><h3>Contact<br />Me</h3></div>
 
-  <div class="grid-item" id="contact-content">
-    <div class="contact-links">
-    <ul>
-      <li>
-          <a href="https://codeswitchstudio.com/">Codeswitchstudio</a>
+  <!-- Contact -->
+  
+  <!-- <h3>Contact Me</h3>
+      <ul class="links">
+        <li>
+            <a href="https://codeswitchstudio.com/">Codeswitchstudio</a>
+        </li>
+        <li>
+            <a href="https://github.com/codeswitchstudio"">GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/indicodeswitch/">Instagram</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/IE62611037">Twitter</a>
       </li>
       <li>
-          <a href="https://github.com/codeswitchstudio"">GitHub</a>
-      </li>
-      <li>
-          <a href="https://www.instagram.com/indicodeswitch/">Instagram</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/IE62611037">Twitter</a>
+        <a href=https://mastodon.social/@indicodeswitch#">Mastodon</a>
     </li>
-    <li>
-      <a href=https://mastodon.social/@indicodeswitch#">Mastodon</a>
-  </li>
-    </ul>
-    </div>
-  </div>
-    </footer>
+    </ul> -->
+
+
+<div class="footer-basic">
+  <footer>
+          <div class="social">
+            <a href="#"><i class="icon ion-social-gitHub"></i></a>
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-mastodon"></i></a>
+          </div>
+          
+      <p class="copyright"> Codeswitch Studio is Indira Endaya © 2023</p>
+  </footer>
+</div>
+
+  
+
 
     <!-- End footer -->
 
