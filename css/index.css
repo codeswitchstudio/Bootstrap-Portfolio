@@ -81,6 +81,8 @@ h1 {
   padding-top: 80px;
 }
 
+
+
 .headshot {
   width: 150px;
   height: 150px;
@@ -155,7 +157,7 @@ h1 {
 .skills-box p,
 .about-box  p {
   /* padding-top: 15px; */
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 /* All hyperlinks should have a hover effect.
@@ -192,7 +194,11 @@ footer-basic ul a {
 }
 
 .footer-basic .social > a:hover {
-  opacity:0.9;
+  opacity:10;
+  margin-top: 0px;
+  -moz-box-shadow: 0px 0px 4px 1px grey;
+  -webkit-box-shadow: 0px 0px 4px 1px grey;
+  box-shadow: 0px 0px 4px 1px  grey;
 }
 
 .footer-basic .copyright {
