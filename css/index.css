@@ -8,23 +8,29 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #F6F7F8;
 
+
 }
 
 /* Navigation bar */
 
-/* General */
 .customNav {
   width: 100%;
   position: static;
-  /* background: url("../images/abstract-gradient-neon-lights-copy.jpg"); */
+  /* background: url("../images/abstract-gradient-neon-lights.jpg"); */
   background-color: transparent !important;
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--bg-color-dark);
   z-index: 10;
-  padding-bottom: 5px;
-  
+  padding-bottom: 5px; 
 }
+
+h1 {
+  font-size:large;
+  font-weight: 500;
+}
+
+
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
@@ -43,17 +49,40 @@ body {
 }
 
 .customNav a:visited {
-  color: rgb(79, 80, 80)!important;
+  color: rgb(80, 78, 78) !important;
 }
 
 .customNav a:hover {
   color: rgb(255, 0, 144)!important;
 }
 
+
+/* hero image */
+.heroBackground {
+  background-image: url(../images/kelly-sikkema-HHtzGcZkRZY-unsplash.jpg);
+  background-size: cover;
+  background-position-y: bottom;
+  min-height: 500px;
+  height: calc(100vh - 25px);
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+  box-shadow: 2px 2px 1px 1px rgba(85, 83, 83, .2);
+
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: var(--bg-color-light);
+  text-align: center;
+  padding-top: 80px;
+}
+
 .headshot {
   width: 150px;
   height: 150px;
-  margin-top: 40px;
   /* margin-left: 30%-150px; */
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -62,57 +91,9 @@ body {
   background-image: url("../images/headshot.png");
 }
 
-/* Jumbotron  */
-/* .jumbotron {
-  background-image: url(../images/abstract-gradient-neon-lights-copy.jpg);
-  min-height: 300px;
-  background-size: cover;
-  height: calc(100vh - 25px);
-  display: flex;  
-  align-items: center;
-  justify-content: center;
-} */
-
-/* Jumbotron copy */
-/* .jumboCopy {
-  margin-top: 50px;
-  padding-top: 20px;
-  padding-left: 0;
-  width: 55%;
-  min-width: 500px;
-  max-width: 700px;
-  color: var(--bg-color-light);
-} */
-
-
-/* hero image */
-.rockBackground {
-  background-image: url(../images/kelly-sikkema-L5HG3CH_pgc-unsplash.jpg);
-  background-size: cover;
-  min-height: 500px;
-  height: calc(100vh - 25px);
-  display:flex;
-  align-items: center;
-  justify-content: center; */
- 
-}
-
-
-.jumboCopy {
-  width: 70%;
-  min-width: 500px;
-  max-width: 700px;
-  color: var(--bg-color-light);
-  text-align: center;
-}
-
-
-
 .sectionHeading h2 {
   text-align: center;
   padding-top: 50px;
-
-  
 }
 
 /* cards */
@@ -120,7 +101,6 @@ body {
   margin-bottom: 25px;
   border: none;
   box-shadow: 2px 2px 1px 1px rgba(85, 83, 83, .2);
-
 }
 
 .card-img-top-01,
@@ -133,7 +113,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .card-img-top-01 {
@@ -154,26 +133,25 @@ body {
 
 .card-img-top-05 {
   background-image: url("../images/DevPrax.png");
-  
-
 }
 
 .card-img-top-06 {
   background-image: url("../images/covid-dance.gif");
-
 }
 
 .card-body {
   font-size: medium;
-
 }
 
-.skills-box h3, p {
-  padding: 15px;
+.skills-box h3, 
+.about-box h3 {
+  padding-top: 15px;
 }
 
-.about-box h3, p {
-  padding: 15px;
+.skills-box p,
+.about-box  p {
+  /* padding-top: 15px; */
+  padding-bottom: 40px;
 }
 
 /* All hyperlinks should have a hover effect.
@@ -219,7 +197,4 @@ footer-basic ul a {
   font-size:13px;
   color:#aaa;
   margin-bottom:10px;
-
 }
-
-/* Credit to https://epicbootstrap.com/snippets/footer-basic */
