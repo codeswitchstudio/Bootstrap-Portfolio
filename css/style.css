@@ -16,7 +16,6 @@ body {
 .customNav {
   width: 100%;
   position: static;
-  /* background: url("../images/abstract-gradient-neon-lights.jpg"); */
   background-color: transparent !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,8 +66,9 @@ h1 {
 
 /* hero image */
 .heroBackground {
-  /* background-image: url(../images/kelly-sikkema-HHtzGcZkRZY-unsplash.jpg); */
-  background-image: url(../images/abstract-gradient-neon-lights-copy.jpg);
+/*   background-image: url(../images/abstract-gradient-neon-lights-copy.jpg); */
+  background: rgb(0,111,150);
+  background: linear-gradient(90deg, rgba(0,111,150,1) 0%, rgba(207,0,133,1) 100%); 
   background-size: cover;
   background-position-y: bottom;
   min-height: 350px;
