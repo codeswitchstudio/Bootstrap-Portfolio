@@ -7,21 +7,23 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: #F6F7F8;
+
 }
 
 /* Navigation bar */
 
 /* General */
 .customNav {
-  position: fixed;
   width: 100%;
-  background: url("../images/abstract-gradient-neon-lights-copy.jpg");
+  position: static;
+  /* background: url("../images/abstract-gradient-neon-lights-copy.jpg"); */
   background-color: transparent !important;
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: solid white;
+  color: var(--bg-color-dark);
   z-index: 10;
-  /* border-bottom: 2px, solid, white; */
+  padding-bottom: 5px;
+  
 }
 .navbar-nav {
   margin-left: auto;
@@ -37,15 +39,15 @@ body {
 
 /* Navigation links */
 .customNav a {
-  color: white !important;
+  color: var(--bg-color-dark) !important;
 }
 
 .customNav a:visited {
-  color: rgb(185, 189, 189)!important;
+  color: rgb(79, 80, 80)!important;
 }
 
 .customNav a:hover {
-  color: aqua!important;
+  color: rgb(255, 0, 144)!important;
 }
 
 .headshot {
@@ -85,8 +87,8 @@ body {
 
 /* hero image */
 .rockBackground {
-  background-image: url(../images);
-  background-size: contain;
+  background-image: url(../images/kelly-sikkema-L5HG3CH_pgc-unsplash.jpg);
+  background-size: cover;
   min-height: 500px;
   height: calc(100vh - 25px);
   display:flex;
@@ -100,7 +102,7 @@ body {
   width: 70%;
   min-width: 500px;
   max-width: 700px;
-  color: var(--light);
+  color: var(--bg-color-light);
   text-align: center;
 }
 
