@@ -43,9 +43,9 @@ Another reference for how to make the footer [Web-eau-net] (https://web-eau.net/
 
 Other tools used:
 
+[CSS gradient] (https://cssgradient.io) I found this after realising you could just use this instead of a slow loading image which was probably generated from the same kind of tool.
+
 Figma and Excalidraw
-
-
 ## License
 
 MIT License
