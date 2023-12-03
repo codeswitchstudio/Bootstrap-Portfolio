@@ -7,7 +7,7 @@ Made for challege 3 of the Front-end Web Dev Bootcamp, this builds on my earlier
 
 This is a portfolio of work meant to showcase my skills and talents to clients or employers who need a front-end developer with a background in graphic design.
 
-Except for the first project which is the first version of this portfolio, I created all the content at different periods in my learning journey prior to the bootcamp. As the bootcamp course progresses and more projects are deployed, I will have more to showcase my strongest works as well as the thought processes behind it. 
+Except for the first project card which is the first version of this portfolio, I created all the content at different periods in my learning journey prior to the bootcamp. As the bootcamp course progresses and more projects are deployed, I will have more to showcase my strongest works as well as the thought processes behind it. 
 
 
 
@@ -21,7 +21,7 @@ Screenshot below
 
 
 ## Deployment
-Link to the deployed application
+Link to the deployed application (For some reason the hero image which is just a gradient, takes a while to load on my screen.)
 [Bootstrap-Portfolio] (https://codeswitchstudio.github.io/bootstrap-portfolio/)
 
 
