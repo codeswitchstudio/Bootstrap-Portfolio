@@ -1,6 +1,6 @@
 # Portfolio challenge 
 
-Made for challege 3 of the Front-end Web Dev Bootcamp, this builds on my earlier portfolio layout [https://codeswitchstudio.github.io/digital-folio-01/] using the Bootstrap [https://getbootstrap.com/] CSS Framework and applying learnings from Exercises on customizing the css.
+Made for challege 3 of the Front-end Web Dev Bootcamp, this builds on my earlier portfolio layout [Digital Folio-01] (https://codeswitchstudio.github.io/digital-folio-01/) using the [Bootstrap] (https://getbootstrap.com/) CSS Framework and applying learnings from Exercises on customizing the css.
 
 
 ## Description
@@ -22,7 +22,7 @@ Screenshot below
 
 ## Deployment
 Link to the deployed application
-
+[Bootstrap-Portfolio] (https://codeswitchstudio.github.io/bootstrap-portfolio/)
 
 
 
@@ -30,12 +30,12 @@ Link to the deployed application
 
 Thank you to our bootcamp instructor Laura Cole, Student Success Advisor Jesse Pacheco, our pod TA Kimberly Rodriguez, and my patient tutors Ashton Foston and Samuel Cordova.
 
-Photo credit for the hero image Kelly Sikkema via Unsplash [https://unsplash.com/@kellysikkema]
+Photo credit for the hero image Kelly Sikkema via [Unsplash] (https://unsplash.com/@kellysikkema)
 
-Stackoverflow
-[https://stackoverflow.com/questions/15493828/web-button-that-hovers-and-displays-drop-shadow-on-mouseover]
+[Stackoverflow]
+(https://stackoverflow.com/questions/15493828/web-button-that-hovers-and-displays-drop-shadow-on-mouseover)
 
-Another reference for how to make the footer Web-eau-net [https://web-eau.net/en/blog/10-best-footer-html-css-snippets]
+Another reference for how to make the footer [Web-eau-net] (https://web-eau.net/en/blog/10-best-footer-html-css-snippets)
 
 Other tools used:
 

@@ -27,8 +27,9 @@ body {
 
 h1 {
   font-size:larger;
-  font-weight: 500;
+  font-weight: 700;
 }
+
 
 
 .navbar-nav {
@@ -43,6 +44,12 @@ h1 {
   margin: 0px 15px;
 }
 
+.nav-item li {
+  font-weight: 500;
+
+}
+
+
 /* Navigation links */
 .customNav a {
   color: var(--bg-color-dark) !important;
@@ -54,6 +61,7 @@ h1 {
 
 .customNav a:hover {
   color: rgb(255, 0, 144)!important;
+  text-decoration:underline;
 }
 
 
