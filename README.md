@@ -26,7 +26,7 @@ Link to the deployed application (For some reason the hero image which is just a
 
 
 
-## Credits
+## Gratitude City
 
 Thank you to our bootcamp instructor Laura Cole, Student Success Advisor Jesse Pacheco, our pod TA Kimberly Rodriguez, and my patient tutors Ashton Foston and Samuel Cordova.
 
@@ -35,6 +35,8 @@ Photo credits:
 - Rishabh Dharmani [via Unsplash] 9https://unsplash.com/@rishabhdharmani) for the first portfolio placeholder
 - [Shutterstock] (http://www.shutterstock.com)
 - [Cultural Center of the Philippines] ([https://collections.culturalcenter.gov.ph/entities/imelda-cajipe-enday](https://pagtutolatpagasa.carrd.co/) for Imelda Cajipe Endaya photos
+
+[Photomosh](https://photomosh.com) to animate my headshot
   
 [Stackoverflow]
 (https://stackoverflow.com/questions/15493828/web-button-that-hovers-and-displays-drop-shadow-on-mouseover)
@@ -46,6 +48,7 @@ Other tools used:
 [CSS gradient] (https://cssgradient.io) I found this after realising you could just use this instead of a slow loading image which was probably generated from the same kind of tool.
 
 Figma and Excalidraw
+
 ## License
 
 MIT License
